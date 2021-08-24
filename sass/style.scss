@@ -1,0 +1,69 @@
+/*variables*/
+$font-text:'Kaisei Opti', serif;
+$font-header:'IBM Plex Sans Thai', sans-serif;
+$color-one: #eccc68;
+$color-light: #f1f2f6;
+$color-font: #f1f2f6;
+$transition: all 1s;
+/*global*/
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    color: $color-font;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+section {
+    padding: 96px 0;
+}
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border: solid;
+}
+.section-splash {
+  background:url("https://images.pexels.com/photos/5828580/pexels-photo-5828580.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat;
+  background-size:cover;
+  height:500px;
+  width:100%;
+}
+h5 {
+  color:$color-one;
+  text-align: left;
+  font-style:italic;
+ }
+  ul {
+    text-align:right;
+    li {
+      display:inline-block;
+      a {
+        text-decoration: none;
+        color:$color-font;
+      }
+    }
+  }
+header{
+  text-align: center;
+  .btn-one {
+    background-color: $color-one;
+    color:$color-font;
+    border:none;
+  }
+}
