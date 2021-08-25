@@ -2,7 +2,6 @@
 $font-text:'Kaisei Opti', serif;
 $font-header:'IBM Plex Sans Thai', sans-serif;
 $color-one: #eccc68;
-$color-light: #f1f2f6;
 $color-font: #f1f2f6;
 $transition: all 1s;
 /*global*/
@@ -13,14 +12,14 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
-    font-family: $font-text;
-    color: $color-font;
 }
-.container {
-    max-width: 1140px;
-    padding: 0 20px;
-    margin: 0 auto;
+h1 {
+  color: white;
 }
+h3{
+  color:white;
+}
+
 section {
     padding: 96px 0;
 }
@@ -38,11 +37,12 @@ section {
     border-width: 2px;
     border: solid;
 }
-.section-splash {
-  background:url("https://images.pexels.com/photos/5828580/pexels-photo-5828580.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") no-repeat;
+.splash {
+  background:url("../images/splash.jpg") no-repeat;
   background-size:cover;
   height:500px;
   width:100%;
+  padding:0;
 }
 h5 {
   color:$color-one;
@@ -59,11 +59,29 @@ h5 {
       }
     }
   }
-header{
+.splash-inner{
   text-align: center;
   .btn-one {
     background-color: $color-one;
     color:$color-font;
     border:none;
   }
+}
+.services {
+  padding: 0;
+  text-align: center;
+  p{
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  i{
+    border:solid 2px;
+    border-radius: 50px;
+    border:solid;
+    border-color:$color-one;
+    color: $color-one;
+  }
+}
+p{
+
 }
