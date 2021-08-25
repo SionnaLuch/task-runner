@@ -105,3 +105,19 @@ img {
     background:white
   }
 }
+footer{
+  background:#f1f2f6;
+  ul{
+text-align: center;
+margin: 0;
+  i{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color:$color-one;
+    line-height: 1.7;
+  }
+  }
+
+}
